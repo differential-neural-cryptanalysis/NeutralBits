@@ -1,0 +1,48 @@
+Round  3
+0100000100000000
+0100000100000001
+0000001000000001
+#all_cands_xy 3
+#all_cands_xc 1
+#all_cands_yc 0
+all_cands_xy (5, 14, 1)
+all_cands_xy (0, 9, 0)
+all_cands_xy (15, 8, 0)
+all_cands_xc (7, 0, 0)
+cond xy (15, 8, 8, 15, 0)
+cond xy (0, 9, 9, 0, 0)
+cond xy (5, 14, 14, 5, 1)
+cond xc (7, 0, 0)
+Wt = 4     Cd = 4     Pr = 2^-0     
+Round  2
+0000001000000100
+0000011000000100
+0001100000000000
+#all_cands_xy 4
+#all_cands_xc 0
+#all_cands_yc 1
+all_cands_xy (3, 12, 0)
+all_cands_xy (2, 11, 1)
+all_cands_xy (0, 9, 0)
+all_cands_xy (9, 2, 1)
+all_cands_yc (10, 10, 0)
+cond xy (0, 9, 0, 9, 0)
+cond xy (9, 2, 9, 2, 1)
+cond xy (2, 11, 2, 11, 1)
+cond xy (3, 12, 12, 3, 0)
+Wt = 5     Cd = 4     Pr = 2^-1     
+Round  1
+0000000000110000
+0000000000010000
+0000000001000000
+#all_cands_xy 2
+#all_cands_xc 1
+#all_cands_yc 0
+all_cands_xy (13, 6, 0)
+all_cands_xy (11, 4, 0)
+all_cands_xc (12, 5, 0)
+cond xy (11, 4, 4, 11, 0)
+cond xy (13, 6, 6, 13, 0)
+cond xc (12, 5, 0)
+Wt = 3     Cd = 3     Pr = 2^-0     
+TWt = 12    TCd = 11    TPr = 2^-1     
